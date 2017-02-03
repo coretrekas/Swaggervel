@@ -1,13 +1,13 @@
 {
-    "name": "larsboldt/swaggervel",
+    "name": "coretrekas/swaggervel",
     "description": "A great way to integrate Swagger into Laravel",
     "keywords": ["laravel", "swagger", "l4", "l5", "documentation", "api"],
     "version": "5.1.2",
     "license": "MIT",
     "authors": [
         {
-            "name": "larsboldt",
-            "email": "boldt.lars@gmail.com"
+            "name": "coretrekas",
+            "email": "info@coretrek.no"
         }
     ],
     "require": {
