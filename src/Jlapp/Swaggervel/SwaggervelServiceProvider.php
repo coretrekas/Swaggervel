@@ -43,7 +43,7 @@ class SwaggervelServiceProvider extends ServiceProvider {
             __DIR__.'/../../config/swaggervel.php', 'swaggervel'
         );
 
-        if (\App::environment('local')) {
+        if (\App::environment() !== 'production') {
             require_once __DIR__ .'/routes.php';
         }
     }
